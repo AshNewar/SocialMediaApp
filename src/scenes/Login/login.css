@@ -1,0 +1,155 @@
+.loginpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100% ;
+    font-weight: bold;
+}
+.logindiv{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    border: 2px solid rgb(21, 20, 21);
+    border-radius: 25px;
+    box-shadow:5px 10px 10px rgb(199, 195, 195);
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.head{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    font-size: 1.4rem;
+    font-family: "Poppins" ,sans-serif;
+    font-weight: 800;
+    text-shadow: 1px 1px  rgb(177, 171, 171) ;
+}
+#login{
+    font-size: 1.8rem;
+    font-family: "Rubik" ,sans-serif;
+    font-weight: 800;
+    }
+.loginpage{
+        margin: auto auto;
+}
+.dropZone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px dotted var(--para-clr);
+    padding: 1rem;
+    cursor: pointer;
+}
+
+#l_des{
+    font-size: 1rem;
+}
+.inp_name{
+    margin-top: 1rem;
+    width: 100%;
+    height: 3rem;
+    border: 0.12rem solid #272728;
+    border-radius: 1rem;
+}
+.name_placeholder{
+    position: absolute;
+    background-color:rgb(251, 251, 251);
+    padding: .1rem .4rem;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    margin-top:-0.8rem;
+    margin-left: 1.3rem;
+    /* width: 4rem; */
+}
+.formName{
+    display: flex;
+    gap: .5rem;
+}
+
+
+#pass_name_placeholder{
+    width: 5.6rem;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #fbfbfd inset;
+    -webkit-text-fill-color: rgb(33, 32, 32) !important;
+}
+
+input, textarea{
+    background-color: #00000000;
+    color:rgb(17, 16, 16);
+}
+.username{
+    width: 90%;
+    caret-color: #69749C;
+    margin-top:1rem;
+    border:none;
+    font-size: 1rem;
+    margin-left: 1rem;
+    fill: none;
+    background: transparent;
+    
+}
+.text{
+    text-transform: capitalize;
+
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+.bottom{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-top:1rem;
+    cursor: pointer;
+}
+.attri{
+    padding:.2rem .4rem;
+    display: block;
+    background-color: #1A1A1D;
+}
+.mem{
+    font-size: 1rem;
+}
+.continue{
+    font-family:'Inter', sans-serif; 
+    /* color:white; */
+    font-weight: 600;
+    color: #EBE2FC;
+    background-color:#A371F7;
+    padding:0.6rem 1.5em;
+    border: 1px solid #4f3a74;
+    border-radius:2.2em;
+    cursor: pointer;
+    box-shadow: 2px 3px 3px rgb(149, 146, 146);
+}
+.continue:hover{
+    color: #A371F7;
+    background-color:#EBE2FC;
+}
+
+.googlelogin{
+    text-align: center;
+    font-family:'Inter', sans-serif; 
+    margin-top: 10px;
+    
+}
+.googlespan{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#googletext{
+    margin-left: 5px;
+}
+    

@@ -1,0 +1,36 @@
+.media{
+    padding: 1rem 1.5rem;
+    background-color: var(--subbg-clr);
+    border-radius: 15px;
+}
+.post-image{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; 
+    
+}
+.media-1{
+    padding: .4rem 0;
+}
+.media-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.media-22{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+.media-like{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+.allpost{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

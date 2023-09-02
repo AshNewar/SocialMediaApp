@@ -1,0 +1,94 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik:wght@400;500;600&display=swap');
+  html, body ,
+  #root, .app{
+    width: 100%;
+    height: 100%;
+    font-family: "Rubik",san-serif;
+  }
+  
+  #root {
+    --blue: #6ba0d5;
+    --white: #ffffff;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  *{
+    transition: all 0.1s ease-in-out;
+  }
+  .darktheme{
+    --main-heading:rgb(88, 147, 215);
+    --para-clr:#d6d3d3;
+    --btn-bg-clr:rgb(87, 147, 214);
+    --bg-clr:#161816;
+    --sub-clr:#3d3e3d;
+    --subbg-clr:#2e2f2e;
+    --inputbg-clr:#7b7a77;
+    --likes-bg-clr:#f4de1c;
+    --chat-input:#595b59;
+    --chat-text:#161816;
+
+  }
+  .lighttheme{
+    --main-heading:rgb(90, 149, 216);
+    --para-clr:#393b39;
+    --btn-bg-clr:rgb(90, 149, 216);
+    --bg-clr:#e9e5e5;
+    --sub-clr:#c4c9c4;
+    --subbg-clr:#cfd3cf;
+    --inputbg-clr:#b1b1b0;
+    --likes-bg-clr:#205eda;
+    --chat-input:#b7b8b7;
+
+  }
+  .section_padding{
+    padding: .4rem 2rem;
+  }
+  div{
+    color: var(--para-clr);
+  }
+
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-weight: bold;
+    color: rgb(157, 156, 156);
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:rgb(57, 53, 53);
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color:rgb(57, 53, 53);}
+
+  @media screen and (max-width: 800px){
+    h1{
+      font-size: 1.5rem;
+    }
+    .section_padding{
+      padding: .5rem 1rem;
+    }
+    .homeSection{
+      padding: 1rem;
+  }
+    
+  }
+
+  @media screen and (max-width:580px){
+    .section_padding{
+      padding: .5rem 1rem;
+    }
+    h1{
+      font-size: 1rem;
+    }
+    .homeSection{
+      padding: .4rem;
+    }
+    
+    
+  }

@@ -1,0 +1,40 @@
+.home{
+    display: grid;
+    grid-template-columns:.5fr 2fr;
+    background-color: var(--bg-clr);
+
+}
+.homeSection{
+    padding: 2rem;
+}
+.home-user{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+@media screen and (max-width:1140px) {
+    .postIcon{
+        font-size: .8rem;
+    }
+    
+}
+@media screen and (max-width:1050px) {
+    div{
+        font-size: .8rem;
+    }
+    .postIcon{
+        font-size: .6rem;
+    }
+}
+@media screen and (max-width: 930px) {
+    .home{
+        display: flex;
+    }
+    .home-user{
+        display: none;
+    }
+    .postIcon{
+        font-size: .6rem;
+    }
+    
+}

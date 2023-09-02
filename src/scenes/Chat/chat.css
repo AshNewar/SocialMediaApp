@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik:wght@400;500;600&family=Varela+Round&display=swap');
+
+body{
+    padding: 1rem 5rem;
+    color: white;
+    height: 100%;
+
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+.chat-container{
+    padding: 1rem 2rem;
+    background-color: var(--bg-clr);
+   
+}
+.chat-body{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    gap: 1rem;
+
+
+}
+.chat-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem .2rem;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+}
+.chat-sec1{
+    display: grid;
+    grid-template-rows: 12% 90%;
+    gap: 1rem;
+
+
+}
+.chat-sec1-body{
+    display: flex;
+    flex-direction: column;
+    /* gap: 1rem; */
+}
+.chat-sec2{
+    /* padding: 1rem; */
+    /* background-color: rgb(11, 10, 45); */
+    border-radius: 10px;
+
+    
+}
+.chat-title{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    /* background-color:var(--inputbg-clr); */
+    background-color:var(--subbg-clr);
+
+
+
+
+}
+.chat-item{
+    display: flex;
+    justify-content: center;
+}
+.chat-image{
+    width: 3vw;
+    height: 5.5vh;
+    border-radius: 50%;
+    border: 3px solid #fff !important;
+
+}
+.contact-body{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+    /* background-color: var(--para-clr); */
+    background-color:var(--chat-input);
+    
+    border-radius: 30px;
+    font-family: 'Varela Round', sans-serif;
+
+}
+.chat-user{
+    display: flex;
+    justify-content: center;
+}
+.chat-list{
+    display: flex;
+    /* background-color: rgb(11, 10, 45); */
+    /* background-color:var(--inputbg-clr); */
+    background-color:var(--subbg-clr);
+
+    border-radius: 10px;
+    /* height: ; */
+
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    overflow: auto;
+
+}
+.robo-img{
+    width: 50%;
+}
+.welcome-user{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.welcome{
+    text-align: center;
+    font-family: "poppins";
+    font-size: 1.8rem;
+}
+.chat-body-title{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: .3rem 1rem;
+    /* background-color: rgb(3, 10, 33); */
+    /* background-color:var(--inputbg-clr); */
+    background-color:var(--subbg-clr);
+
+
+    border-radius: 10px;
+    font-family: 'Varela Round', sans-serif;
+
+}
+.chat-container-input{
+    display: flex;
+    align-items: center;
+    padding: .8rem 1rem;
+    /* background-color: rgb(3, 10, 33);     */
+    /* background-color:var(--inputbg-clr); */
+    background-color:var(--subbg-clr);
+
+
+    border-radius: 10px;
+    position: relative;
+    bottom: 0;
+
+
+}
+.input-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: .5rem 1rem;
+    gap: 1rem;
+
+}
+.chat-input{
+    width: 98%;
+    padding: .5rem 1rem;
+    background-color: transparent;
+    border: none;
+    /* background-color: rgb(28, 27, 71); */
+    /* background-color:var(--para-clr);
+     */
+    background-color:var(--chat-input);
+
+
+    padding: 1rem .8rem;
+    border-radius: 25px;
+    color:var(--para-clr);
+    font-weight: bold;
+
+}
+.send{
+    /* background-color: rgb(28, 27, 71); */
+    background-color:var(--chat-input); 
+
+    padding: .4rem .6rem;
+    border-radius: 10px;
+    color: white;
+}
+.emojiPicker{
+    position: absolute;
+    bottom: +200px;
+}
+.message-container{
+    height: 50vh;
+    /* background-color: rgb(28, 27, 71); */
+    /* background-color:var(--inputbg-clr); */
+    background-color:var(--subbg-clr);
+
+
+    border-radius: 10px;
+    overflow: auto;
+    padding: .4rem 1rem;
+
+    
+}
+.chat-message-container{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+}
+.sendMsg{
+    display: flex;
+    justify-content: end;
+}
+.receiveMsg{
+    display: flex;
+    justify-content: start;
+}
+.message-body{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.chat{
+    width: fit-content;
+    padding:.8rem 1rem;
+    background-color:var(--chat-input);
+    /* color: var(--chat-text); */
+
+    border-radius: 12px;
+
+    
+}
