@@ -2,6 +2,7 @@ import axios from "axios";
 import ChatInput from "./ChatInput";
 import Message from "./Message";
 import { useEffect, useState } from "react";
+import { server } from "../redux/store.js";
 
 const ChatContainer = ({ user, partner, socket }) => {
   const [message, setMessage] = useState([]);
@@ -11,7 +12,7 @@ const ChatContainer = ({ user, partner, socket }) => {
   const getMsg = async () => {
     try {
       const { data } = await axios.post(
-        `http://localhost:4040/chat/getmsg/`,
+        `${server}/chat/getmsg/`,
         {
           sender: user,
           receiver: partner,
@@ -45,7 +46,7 @@ const ChatContainer = ({ user, partner, socket }) => {
   const handleMsg = async (msg) => {
     try {
       const data = await axios.post(
-        `http://localhost:4040/chat/addmsg/`,
+        `${server}/chat/addmsg/`,
         { sender: user, receiver: partner, message: msg },
         {
           withCredentials: true,
