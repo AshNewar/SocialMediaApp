@@ -6,3 +6,5 @@ Work in Progress
 -> Notifications
 -> Share Support
 -> SearchBar
+-> New Comments Design and like comment 
+-> Large Database Managment
